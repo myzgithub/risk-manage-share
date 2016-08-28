@@ -6,6 +6,7 @@ import java.util.Date;
 /**
  * Created by myz on 16/8/25.
  * 必须实现序列化接口
+ * 
  */
 public class User implements Serializable{
     private Integer id;
