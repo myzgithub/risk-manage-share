@@ -18,7 +18,7 @@
   </properties>
 
   <dependencies>
-    <!--公用依赖二方包-->
+    <!--公用依赖二方包 -->
     <dependency>
       <groupId>com.risker</groupId>
       <artifactId>all-shared</artifactId>
