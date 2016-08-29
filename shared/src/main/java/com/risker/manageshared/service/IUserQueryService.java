@@ -1,6 +1,7 @@
 package com.risker.manageshared.service;
 
 import com.risker.allshared.model.ResultModel;
+import com.risker.allshared.model.paging.PagingResultModel;
 import com.risker.manageshared.model.User;
 
 import java.util.List;
@@ -10,5 +11,5 @@ import java.util.List;
  */
 public interface IUserQueryService {
 
-    public ResultModel<List<User>> queryAll();
+    public PagingResultModel<User> queryAll();
 }
